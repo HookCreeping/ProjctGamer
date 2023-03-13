@@ -1,0 +1,113 @@
+/* Font Insert - Inserir fontes */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: TilWeb;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+@font-face {
+    font-family: QSand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+
+.header-grid{
+    background-color: rgba(30, 20, 40, 1);
+}
+.header-typography {
+    font-size: 15px;
+    font-family: Inter;
+    color: white;
+}
+header a {
+    text-decoration: none;
+}
+
+/*** Desktop First ***/
+/** HEADER **/
+/* HEADER TOP */
+.header-top {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    
+    align-items: center;
+    border-bottom: 3px solid rgba(250, 170, 0, 1);
+    
+    position: absolute;
+    top: -1px;
+}
+
+.header-icons {
+    width: 25px;
+    height: 25px;
+}
+.header-icons-excection {
+    width: 15px;
+    height: 25px;
+}
+
+.contacts {
+    display: flex;
+    width: 410px;
+    height: 30px;
+
+    justify-content: space-between;
+
+    position: absolute;
+    left: 120px;
+}
+.our_phone {
+    display: flex;
+    width: 150px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+.our_email {
+    display: flex;
+    width: 205px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-medias {
+    display: flex;
+    width: 120px;
+
+    justify-content: space-between;
+
+    position: absolute;
+    right: 120px;
+}
+
+/** HEADER BOTTOM **/
+.header-bottom {
+    width: 100%;
+    height: 90px;
+
+    align-items: center;
+    border-top: 3px rgba(250, 170, 0, 1);
+
+    position: absolute;
+    top: 50px;
+}
+
+.links {
+    display: flex;
+}
+
+.LOGO {
+    display: flex;
+    width: 195px;
+    height: 55px;
+}
