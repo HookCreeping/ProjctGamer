@@ -16,6 +16,7 @@
     width: 90%;
     height: 100%;
     margin: 0 auto;
+    border: 1px solid salmon;
 }
 
 /* justify content + align items */
@@ -56,7 +57,7 @@ header .logo {
 header .header-bottom nav {
     position: fixed;
     top: 60px;
-    left: -80vw;
+    left: 0;
     z-index: 101;
     display: flex;
     flex-direction: column;
@@ -66,7 +67,6 @@ header .header-bottom nav {
     padding-bottom: 20px;
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(45px);
-    transition: left 0.4s;
 }
 
 header .header-bottom nav > a {
@@ -99,23 +99,5 @@ header .header-bottom nav .midias-sociais {
 }
 
 header .menu-usuarios {
-    position: fixed;
-    top: 60px;
-    right: -150px;
-    width: 10vw;
-    height: 170px;
-
-    background-image: linear-gradient(to right bottom, rgba(30,20,40,0.7), rgba(30,20,40,0.4));
-    backdrop-filter: blur(45px);
-    transition: right 0.4s;
-    
-
-}
-
-.mostrar-menu {
-    left: 0 !important;
-}
-
-.mostrar-user {
-    right: 0 !important;
+    display: none;
 }
